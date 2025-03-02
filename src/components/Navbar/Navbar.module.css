@@ -1,0 +1,457 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 131px;
+  position: fixed;
+  z-index: 99;
+}
+.NavbarBelt {
+  background-color: rgba(19, 25, 33, 1);
+  /* padding-right: 25px;
+  padding-left: 25px; */
+  gap: 2.5rem;
+  display: flex;
+  width: 100%;
+  height: 75px;
+  color: white;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.NavbarBelt__leftNavBelt {
+  display: flex;
+  padding-right: 10px;
+}
+.amazonlogo_navbar {
+  width: 100%;
+  padding: 15px;
+  height: 75px;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid;
+    border-radius: 3px;
+  }
+}
+.navbarBelt_location {
+  display: flex;
+  width: 235px;
+  height: 73px;
+  padding-top: 14.69px;
+  padding-right: 10.17px;
+  padding-bottom: 14.69px;
+  padding-left: 10.17px;
+  gap: 11.3px;
+  border-radius: 3px;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid;
+    border-radius: 3px;
+  }
+}
+.navbarBelt_locationImg {
+  width: 15px;
+  padding-top: 20px;
+}
+.navbarBelt_locationPlace {
+  display: flex;
+  flex-direction: column;
+}
+.navbarBelt_locationTop {
+  color: rgba(192, 204, 204, 1);
+  /* font-family: Lato; latter */
+  font-weight: 400;
+  font-size: 15.82px;
+  line-height: 18.99px;
+  letter-spacing: 0%;
+}
+.navbarBelt_locationBottom {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 18.08px;
+  line-height: 21.7px;
+  letter-spacing: 0%;
+}
+.NavbarBelt__navbarBeltSearchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 4px;
+  width: 30rem;
+}
+.navbarBeltSearchDiv {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border-radius: 4.5px;
+}
+.navbarBeltSearchBoxAll,
+.searchIconNavbarBelt {
+  position: relative;
+  height: 54px !important;
+}
+.navbarBeltSearchBoxAll {
+  display: flex;
+  background: rgba(217, 217, 217, 1);
+  width: 75px;
+  gap: 5px;
+  border-top-left-radius: 4.52px;
+  border-bottom-left-radius: 4.52px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(103, 103, 103, 1);
+  border: 2px solid rgba(217, 217, 217, 1);
+  top: 3px;
+  left: 3px;
+}
+
+.navbarInput {
+  padding: 5px;
+  width: 84%;
+  border: 0;
+  &::placeholder {
+    color: rgba(105, 105, 105, 1);
+    font-weight: 400;
+    font-size: 22.27px;
+    line-height: 26.73px;
+    letter-spacing: 0%;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.searchIconNavbarBelt {
+  background: rgba(255, 204, 0, 1);
+  width: 47.5px;
+  height: 60px;
+  gap: 11.31px;
+  border-top-right-radius: 4.52px;
+  border-bottom-right-radius: 4.52px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 3px;
+  right: 3px;
+  &:hover {
+    background-color: #f1ba73;
+  }
+}
+.NavbarBelt__rightNavBelt {
+  padding: 10px;
+  color: white;
+  display: flex;
+  gap: 1px;
+}
+
+.flages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  width: 110px;
+  padding-top: 10px;
+  padding-right: 11px;
+  padding-bottom: 10px;
+  padding-left: 11px;
+  gap: 5px;
+
+  &:hover {
+    border-radius: 3px;
+    border: 1px solid white;
+  }
+}
+.flagesHiddenDiv {
+  width: 280px;
+  height: 220px;
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  top: 65px;
+
+  margin-left: 100px;
+  background: white;
+  color: black;
+  padding: 10px;
+}
+.flagesHiddenDiv a {
+  text-decoration: none;
+}
+.flages:hover .flagesHiddenDiv {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.flagCode_text {
+  font-weight: 600;
+  font-size: 19.56px;
+  line-height: 23.47px;
+  letter-spacing: 0%;
+  margin-right: 4px;
+  color: white;
+}
+.signInNavbar {
+  display: flex;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  flex-direction: column;
+  width: 185px;
+  padding: 8px;
+
+  cursor: pointer;
+  &:hover {
+    border-radius: 3px;
+    border: 1px solid;
+  }
+}
+.TopsignInNavbar {
+  /* font-family: Lato; */
+  font-weight: 400;
+  font-size: 15.82px;
+  line-height: 18.99px;
+  letter-spacing: 0%;
+}
+.BottomSignInNavbar {
+  font-weight: 700;
+  font-size: 18.08px;
+  line-height: 21.7px;
+  letter-spacing: 0%;
+}
+.ReturnsAndOrders {
+  width: 113px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 18.08px;
+  line-height: 21.7px;
+  letter-spacing: 0%;
+
+  &:hover {
+    border-radius: 3px;
+    border: 1px solid;
+  }
+}
+.ReturnsAndOrders_bold {
+  /* font-family: Lato; */
+  font-weight: 700;
+  font-size: 18.08px;
+  line-height: 21.7px;
+  letter-spacing: 0%;
+}
+.Navbar_cartDiv {
+  width: 108px;
+  padding-top: 20px;
+  &:hover {
+    border-radius: 3px;
+    border: 1px solid;
+  }
+}
+.Navbar_cartDiv_label {
+  font-weight: 700;
+  font-size: 18.08px;
+  letter-spacing: 0%;
+  color: white;
+  margin-left: 5.5px;
+}
+.navbarBanner {
+  background-color: rgba(35, 47, 62, 1);
+  width: 100%;
+  height: 56px;
+  display: flex;
+  padding-top: 3px;
+  padding-right: 12px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  gap: 18px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16.41px;
+  line-height: 19.7px;
+  letter-spacing: 0%;
+  color: white;
+}
+.navbarBannerOptions {
+  width: 50px;
+}
+.navbarBanner ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.scrollable_list {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollable_list::-webkit-scrollbar {
+  display: none;
+}
+pre {
+  margin: 0;
+}
+
+.list_item {
+  flex: 0 0 auto;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.signInNavbarhidden {
+  display: none;
+}
+.fixedRightSideDiv {
+  position: fixed;
+  left: 0;
+  top: 210px;
+  transform: translateY(-25%);
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: rgba(35, 47, 62, 1);
+  z-index: 1000;
+  color: rgb(255, 254, 254);
+  width: 399px;
+  border: 0;
+  height: 100vh;
+  padding-left: 20px;
+}
+.fixedRightSideDiv_bigTitle {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(19, 25, 33, 1);
+  width: 400px;
+  margin-left: -21px;
+  margin-top: -11.5px;
+  height: 50px;
+  color: white;
+  font-size: 1.5rem;
+}
+.fixedRightSideDiv_bigTitle p {
+  margin-left: 10px;
+}
+.fixedRightSideDiv_bigTitle span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* /////////////////////////////////////////////////// */
+.primHidden {
+  width: 310px;
+  height: 338px;
+  display: none;
+  background-image: url("https://m.media-amazon.com/images/G/42/prime/navprime/HardOffer._CB620209993_.jpg");
+  position: absolute;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.primHidden p {
+  margin-top: 55px;
+  font-size: 1rem;
+}
+
+.list_item_hover:hover .primHidden {
+  display: block;
+}
+.navbarBelt_location_first {
+  display: flex;
+  width: 235px;
+  height: 73px;
+  padding-top: 14.69px;
+  padding-right: 10.17px;
+  padding-bottom: 14.69px;
+  padding-left: 10.17px;
+  gap: 11.3px;
+  border-radius: 3px;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid;
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .amazonlogo_navbar {
+    width: 100px;
+  }
+  .navbarBelt_location {
+    width: 215px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .flages {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .signInNavbar {
+    width: 150px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .ReturnsAndOrders {
+    width: 85px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .Navbar_cartDiv {
+    width: 50px;
+  }
+  .Navbar_cartDiv span {
+    display: none;
+  }
+  .navbarBelt_location_toggle {
+    display: none;
+  }
+}
+@media (max-width: 950px) {
+  .signInNavbar_toggle {
+    display: none;
+  }
+  .signInNavbarhidden {
+    display: block;
+    cursor: pointer;
+    width: 60px;
+    &:hover {
+      border-radius: 3px;
+      border: 1px solid;
+    }
+  }
+  .signInNavbarhidden p {
+    margin-top: 10px;
+  }
+  .fixedRightSideDiv {
+    top: 165px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Navbar_cartDiv span {
+    display: block;
+  }
+  .NavbarBelt__navbarBeltSearchBox,
+  .ReturnsAndOrders_toggle,
+  .Navbar_cartDiv span {
+    display: none;
+  }
+  .fixedRightSideDiv {
+    top: 157px;
+  }
+}

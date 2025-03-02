@@ -1,0 +1,30 @@
+.review-summary {
+  max-width: 400px;
+}
+
+.review-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.progress {
+  flex-grow: 1;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.progress-bar {
+  border-radius: 5px;
+  background-color: #fafafa !important;
+  height: 100%;
+}
+
+.progress-bar-highlight {
+  background-color: #d88a29 !important;
+  height: 100%;
+}

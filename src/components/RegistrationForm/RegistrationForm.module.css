@@ -1,0 +1,110 @@
+html,
+body {
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+}
+
+.logoContainer {
+  margin: 10px auto;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 1.3rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin: 3px 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffd814;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.businessText {
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.separator {
+  width: 100%;
+  border: 0.5px solid grey;
+  margin: 15px 0;
+}
+
+.signInText {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.termsText {
+  font-size: 12px;
+  color: #666;
+}
+
+.link {
+  color: #2a8fd7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #2a8fd7;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-top: 10px;
+}

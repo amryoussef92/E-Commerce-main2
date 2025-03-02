@@ -1,0 +1,19 @@
+.starsDiv input[type="radio"] {
+  display: none;
+}
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+  margin-bottom: 5px;
+}
+.border_style {
+  stroke: rgba(255, 153, 0, 1);
+  stroke-width: 0.53px;
+  fill: none;
+}
+.filter {
+  position: static;
+  top: 151px;
+  background: white;
+  margin-top: 11px;
+}

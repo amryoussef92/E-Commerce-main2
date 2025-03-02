@@ -1,0 +1,20 @@
+.review-card {
+    background: #fff;
+  }
+  
+  .review-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+.color{color: #de7921;}
+  
+  .review-title {
+    font-size: 1.2rem;
+  }
+  
+  .review-text {
+    font-size: 0.95rem;
+  }
+  

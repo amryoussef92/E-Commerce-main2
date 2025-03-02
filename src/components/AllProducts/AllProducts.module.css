@@ -1,0 +1,66 @@
+.error {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.layer {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.products:hover .layer {
+  transform: translateY(0);
+  opacity: 0.7;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.rating {
+  position: relative;
+}
+.ratingNumbers {
+  margin-left: 20px;
+  color: #1f8394;
+}
+.ratingNumbers::before {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 5px;
+  right: 70px;
+  font-size: 12px;
+  color: black;
+}
+.products {
+  border: 1px solid #ccc7c7;
+  padding: 0 10px;
+}
+.grayColor{
+    color:#7F7F7F;
+    font-size: smaller;
+}
+.cartBtn.cartBtn{
+  width: fit-content;
+  background-color: #FFCC00;
+  color: black;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+
+}
+.favoriteButton{
+  padding: 0 0;
+  width: fit-content;
+  background-color: transparent;
+}

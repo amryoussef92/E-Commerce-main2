@@ -1,0 +1,111 @@
+.cart__card {
+  border-top: solid 1px rgb(215, 212, 212);
+  border-bottom: solid 1px rgb(215, 212, 212);
+}
+.cartPage__cartDetails {
+  max-height: 250px;
+}
+.cartPage__cartDetailsButton {
+  border-radius: 15px;
+  width: 100%;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #2162a1;
+}
+
+.quantityButton {
+  border: 2px solid gold;
+  border-radius: 15px;
+  display: inline;
+}
+
+.cart__btnCount.cart__btnCount {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+  padding: 0 15px;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  margin: auto 8px;
+}
+@media (max-width: 767px) {
+  body {
+    background-color: white;
+  }
+
+  .cartPage__cartDetails {
+    width: 100%;
+  }
+  .cartPage__cartDetailsBorder {
+    padding: 10px;
+    border: 1px solid #246fb6;
+    border-left-width: 10px;
+    border-radius: 10px;
+  }
+  .cartPage__cart {
+    width: 100%;
+  }
+
+  .cart__linkes {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0 10px;
+  }
+  .cart__card {
+    background-color: #f7f9fa;
+    border: none;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .cart__description {
+    font-weight: normal !important;
+  }
+  .cart__container,
+  .cartPage__cart {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .cartPage__cartDetailsButton {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+  .emptyCart img{
+    width: 100%;
+  }
+}
+
+.loader {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #FF9900, #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: spinAndScale 2s infinite ease-in-out;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spinAndScale {
+  0% {
+    opacity: 0;
+    transform: rotate(-180deg) scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(180deg) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(360deg) scale(1.2);
+  }
+}
