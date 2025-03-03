@@ -14,22 +14,24 @@
   background-color: rgba(19, 25, 33, 1);
   /* padding-right: 25px;
   padding-left: 25px; */
-  gap: 2.5rem;
+  gap: 1rem;
   display: flex;
   width: 100%;
   height: 75px;
   color: white;
   box-sizing: border-box;
   justify-content: space-between;
+  align-items: center;
 }
 .NavbarBelt__leftNavBelt {
   display: flex;
   padding-right: 10px;
+  align-items: center;
 }
 .amazonlogo_navbar {
-  width: 100%;
+  width: 75%;
   padding: 15px;
-  height: 75px;
+
   cursor: pointer;
   &:hover {
     border: 1px solid;
