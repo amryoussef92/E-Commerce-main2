@@ -1,7 +1,6 @@
 {
   "name": "e-commerce",
   "homepage": "https://amryoussef92.github.io/E-Commerce-main2/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
